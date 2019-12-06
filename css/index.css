@@ -240,6 +240,39 @@ header nav {
     margin:4% 0;
 }
 
+/* product info section */
+.products-info {
+	padding:2% 0;
+}
+
+.products-info p {
+	margin:2% 0;
+}
+
+.products-info h2 {
+	font-size:35px;
+	text-align: center;
+}
+
+/* products section */
+.products {
+	display:flex;
+	justify-content: space-around;
+}
+
+.products div {
+	width:200px;
+	margin:5% 0;
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.products h2 {
+	text-align: center;
+	margin:5%;
+}
+
 /* universal footer */
 footer {
     width: 100%;
