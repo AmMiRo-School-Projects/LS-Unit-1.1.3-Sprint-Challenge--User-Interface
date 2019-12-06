@@ -66,11 +66,42 @@ p {
     line-height: 1.4;
 }
 
+
+/* container */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* universal header */
+header {
+    display:flex;
+    justify-content: space-between;
+    margin:2% 0;
+}
+
+header nav {
+    width: 90%;
+    display:flex;
+    justify-content:space-around;
+    padding-top:2%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* universal top image */
+.top-image {
+    display:flex;
+    align-content: center;
+    margin:4% 0;
+}
+
+/* index top content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +116,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* index middle boxed content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +144,47 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* index bottom content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +199,48 @@ p {
     padding-right: 0;
 }
 
+/* about top section */
+.about {
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
+/* about middle content */
+.about-middle-content {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    width: 370px;
+    margin: 2% 0;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    display:block;
+    padding:2% 4%;
+	border:1px solid black;
+	border-radius:5px;
+    text-decoration:none;
+    color:black;
+    margin:2% 0;
+    width:120px;
+    text-align: center;
+}
+
+.about-content h2, .about-content img, .about-content p, .about-content a {
+    margin:2% 0;
+}
+
+/* about bottom content */
+.work-together {
+    margin:4% 0;
+}
+
+/* universal footer */
 footer {
     width: 100%;
     background: black;
